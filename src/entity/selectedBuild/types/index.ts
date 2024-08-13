@@ -5,7 +5,7 @@ export type BuildingFeature = {
     name?: string;
     address?: string;
     height?: number;
-    [key: string]: any; // Допустим любые дополнительные свойства
+    [key: string]: any; 
   };
   geometry: {
     type: string;
@@ -16,5 +16,5 @@ export type BuildingFeature = {
 export type BuildingInfoCardProps = {
   building: BuildingFeature;
   onIncreaseHeight: () => void;
-  onClose: () => void; // Функция для закрытия карточки
+  onClose: () => void; 
 };
